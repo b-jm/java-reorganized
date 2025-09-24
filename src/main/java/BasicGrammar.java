@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class BasicGrammar {
 
     public static void main(String[] args) {
@@ -18,6 +20,7 @@ public class BasicGrammar {
         // 리터럴은 무엇인가? -> 위의 height에 들어간 175란 '값'이다.
 
         // 연산자
+        // 실수라면 자료형 타입을 double로 주기 (int 대신 -> double)
         int a = 20;
         int b = 10;
 
@@ -41,6 +44,26 @@ public class BasicGrammar {
 
         // 기본 입출력
         // 출력
+        System.out.println("Hello Java!");
+        System.out.println("나이: ");
+        System.out.println(25);
+        System.out.printf("이름: %s, 점수: %d\n", "이순신", 95);
 
+        // 연산자에서 실습한 내용 출력하기
+        System.out.printf("sum: %d, diff: %d, mul: %d, div: %d, rem: %d \n", sum, diff, mul, div, rem);
+
+        // 입력
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("정수 입력: ");
+        int num = scanner.nextInt();
+
+        System.out.print("문자열 입력: ");
+        String text = scanner.next();
+
+        System.out.println("입력한 정수: " + num);
+        System.out.println("입력한 문자열: " + text);
+
+        scanner.close();
     }
 }

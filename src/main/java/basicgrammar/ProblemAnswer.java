@@ -49,7 +49,7 @@ public class ProblemAnswer {
         System.out.printf("최종 결제 금액: %d원\n", finalPrice);
 
 
-        
+
         // 문제 3: 초(second)를 시/분/초로 변환하기
         System.out.print("시간(초)을 입력하세요: ");
         int totalSecond = scanner.nextInt();

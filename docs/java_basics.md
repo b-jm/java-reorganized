@@ -2,7 +2,7 @@
 
 ---
 
-[예제 코드](../src/main/java/basicgrammar/BasicGrammar.java)
+### [예제 코드](../src/main/java/basicgrammar/BasicGrammar.java)
 
 - 변수와 자료형
 - 리터럴
@@ -127,6 +127,9 @@ Programiz 좋은 입출력 튜토리얼 참고해 보면 예제가 많다.
 
 -----
 
+### 🤔 [문제 답안](../src/main/java/basicgrammar/ProblemAnswer.java)
+
+---
 ### 🏋️‍♂️ 문제 1: 자기소개 프로그램 만들기
 
 사용자로부터 이름(String), 나이(int), 키(double), 그리고 자신이 프로그래머가 맞는지(boolean)에 대한 정보를 입력받아, 다음과 같은 형식으로 출력하는 프로그램을 작성하세요.

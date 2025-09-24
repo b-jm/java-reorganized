@@ -112,14 +112,14 @@ Oracle 튜토리얼에 리터럴에 대한 설명도 나와 있어.
 - 사용자와 프로그램이 소통하려면 데이터를 입력 받고 출력 해야한다.
 
 
-- 출력
+- 출력 (Output)
   - System.out.println(...) : 줄 바꿔서 출력
   - System.out.print(...) : 줄 바꾸지 않고 출력
   - System.out.printf(...) : 형식(format) 문자열을 이용해 출력 
 
 Programiz 좋은 입출력 튜토리얼 참고해 보면 예제가 많다.
 
-- 입력
+- 입력 (Input)
   - 자바에서 가장 많이 쓰는 방법: Scanner 클래스 사용함.
   - java.util.Scanner 패키지를 import 해야 한다.
   - nextInt(), nextDouble(), next() 등 다양한 입력 메서드가 있다.

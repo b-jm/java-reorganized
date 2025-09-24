@@ -2,7 +2,6 @@
 
 ---
 
-[예제 코드](src/main/java/BasicGrammar)
 
 - 변수와 자료형
 - 리터럴

@@ -2,7 +2,7 @@
 
 ---
 
-[예시 코드](src/main/java/BasicGrammar)
+[예시 코드](src/main/java/basicgrammer/basicgrammar.BasicGrammar)
 
 - 변수와 자료형
 - 리터럴

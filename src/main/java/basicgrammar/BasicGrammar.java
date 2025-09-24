@@ -67,8 +67,5 @@ public class BasicGrammar {
         System.out.println("입력한 문자열: " + text);
 
         scanner.close();
-
-        // 연습문제
-
     }
 }

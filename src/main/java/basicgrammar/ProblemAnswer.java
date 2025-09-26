@@ -3,7 +3,7 @@ package basicgrammar;
 import java.util.Scanner;
 
 public class ProblemAnswer {
-    
+
     // 주석을 넣으면서 돌려보시면 편합니다.
     public static void main(String[] args) {
 

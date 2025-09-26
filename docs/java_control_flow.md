@@ -136,6 +136,10 @@ do {
 
 ---
 
+### 🤔 [문제 답안](../src/main/java/controlflow/ProblemAnswer.java)
+
+---
+
 ## 🏋️‍♂️ 문제 1: 3과 5의 배수 찾기 (for, if-else)
 1부터 100까지의 숫자를 출력하는 프로그램을 작성하세요. 단, 숫자가 3의 배수일 경우 숫자 대신 "Fizz"를, 5의 배수일 경우 "Buzz"를, 3과 5의 공통 배수일 경우 "FizzBuzz"를 출력해야 합니다.
 

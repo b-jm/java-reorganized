@@ -60,5 +60,8 @@ public class ProblemAnswer {
 
         System.out.println("--- 변환 결과 ---");
         System.out.printf("%d시간 %d분 %d초", hour, minute, second);
+
+        // 문제 4: 성적 분석 프로그램 (1차원 배열, for)
+
     }
 }

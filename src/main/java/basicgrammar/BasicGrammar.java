@@ -67,5 +67,49 @@ public class BasicGrammar {
         System.out.println("입력한 문자열: " + text);
 
         scanner.close();
+
+        // 배열
+        // 선언
+        int[] nums;           // 배열 변수 선언
+        // 초기화 (크기 지정)
+        nums = new int[5];    // 정수 5개를 저장할 수 있는 배열 생성
+
+        // 선언 + 초기화 동시에
+        int[] nums2 = new int[3];
+
+        // 선언 + 초기화 + 값 지정
+        int[] nums3 = {10, 20, 30};
+
+        // 요소 접근 & 길이
+        int x2 = nums3[1];      // 배열의 인덱스 1번 요소: 20
+        nums3[2] = 100;        // 인덱스 2번 요소를 100으로 변경
+
+        int len = nums3.length;  // 배열의 길이: 3
+
+        // 문자열
+        String s = "Hello";
+        s = s + " World";  // 실제론 새로운 문자열이 만들어져서 s가 그걸 참조
+
+        StringBuilder sb = new StringBuilder();
+        sb.append("Hello");
+        sb.append(" ");
+        sb.append("Java");
+        // toString()으로 String으로 변환 가능
+        String result = sb.toString();  // "Hello Java"
+
+        // 예제: 학생 이름 배열 + 점수 출력
+        String[] names = {"Alice", "Bob", "Charlie"};
+        int[] scores = {85, 90, 78};
+
+        for (int i2 = 0; i2 < names.length; i2++) {
+            System.out.printf("%s 님의 점수는 %d점입니다.\n", names[i2], scores[i2]);
+        }
+
+        // 문자열 조작 예: 전체 문자열 한 줄 만들기
+        StringBuilder sb2 = new StringBuilder();
+        for (int i3 = 0; i3 < names.length; i3++) {
+            sb.append(names[i3]).append("(").append(scores[i3]).append(") ");
+        }
+        System.out.println("학생 정보: " + sb.toString());
     }
 }

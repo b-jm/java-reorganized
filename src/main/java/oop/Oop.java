@@ -27,7 +27,7 @@ public class Oop {
         }
         return arr[index] + sumArray(arr, index + 1);
     }
-    
+
     public static void main(String[] args) {
         // 메소드 호출
         int sum = add(3, 5);         // sum = 8

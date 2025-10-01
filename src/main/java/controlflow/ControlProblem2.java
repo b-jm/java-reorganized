@@ -2,24 +2,8 @@ package controlflow;
 
 import java.util.Scanner;
 
-public class ProblemAnswer {
-
+public class ControlProblem2 {
     public static void main(String[] args) {
-
-        // 문제 1: 3과 5의 배수 찾기 (for, if-else)
-        for(int i = 1; i < 101; i++) {
-            if(i % 3 == 0 && i % 5 == 0) {
-                System.out.println("FizzBuzz");
-            } else if (i % 3 == 0) {
-                System.out.println("Fizz");
-            } else if (i % 5 == 0) {
-                System.out.println("Buzz");
-            } else {
-                System.out.println(i);
-            }
-        }
-
-
         // 문제 2: 간단한 ATM 만들기 (while, switch, break)
         Scanner scanner = new Scanner(System.in);
 
@@ -76,41 +60,6 @@ public class ProblemAnswer {
                     System.out.println("프로그램을 종료합니다.");
                     flag = false;
                     break;
-            }
-        }
-
-
-        // 문제 3: 숫자 맞추기 게임 (do-while, if, break)
-        int randomNum = (int) (Math.random() * 100 + 1);
-        int inputNum = 0;
-
-        System.out.println("1부터 100 사이의 숫자를 맞춰보세요.");
-
-        do {
-            System.out.print("숫자 입력: ");
-            inputNum = scanner.nextInt();
-
-            if(randomNum > inputNum) {
-                System.out.println("더 큰 숫자입니다.");
-            } else if(randomNum < inputNum) {
-                System.out.println("더 작은 숫자입니다.");
-            } else {
-                System.out.println("정답입니다!");
-                break;
-            }
-
-        } while (randomNum != inputNum);
-
-
-        // 문제 4: 짝수 단만 출력하기 (중첩 for, continue)
-        for(int dan = 2; dan < 10; dan++) {
-            if(dan % 2 != 0) {
-                continue;
-            }
-
-            System.out.printf("--- %d단 ---\n", dan);
-            for(int i = 1; i < 10; i++){
-                System.out.printf("%d * %d = %d\n", dan, i, dan * i);
             }
         }
     }

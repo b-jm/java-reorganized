@@ -136,11 +136,11 @@ do {
 
 ---
 
-### 🤔 [문제 답안](../src/main/java/controlflow/ProblemAnswer.java)
+### 🤔 문제를 누르면 답안이 나와요.
 
 ---
 
-## 🏋️‍♂️ 문제 1: 3과 5의 배수 찾기 (for, if-else)
+### 🏋️‍♂️ [문제 1: 3과 5의 배수 찾기 (for, if-else)](../src/main/java/controlflow/ControlProblem1.java)
 1부터 100까지의 숫자를 출력하는 프로그램을 작성하세요. 단, 숫자가 3의 배수일 경우 숫자 대신 "Fizz"를, 5의 배수일 경우 "Buzz"를, 3과 5의 공통 배수일 경우 "FizzBuzz"를 출력해야 합니다.
 
 요구사항:
@@ -167,7 +167,7 @@ FizzBuzz
 
 ---
 
-## 🏋️‍♂️ 문제 2: 간단한 ATM 만들기 (while, switch, break)
+### 🏋️‍♂️ [문제 2: 간단한 ATM 만들기 (while, switch, break)](../src/main/java/controlflow/ControlProblem2.java)
 사용자가 종료를 선택할 때까지 예금, 출금, 잔액 조회를 할 수 있는 간단한 ATM 프로그램을 만드세요.
 
 요구사항:
@@ -209,7 +209,7 @@ switch 문을 사용하여 각 메뉴에 따른 기능을 구현하세요.
 
 ---
 
-## 🏋️‍♂️ 문제 3: 숫자 맞추기 게임 (do-while, if, break)
+### 🏋️‍♂️ [문제 3: 숫자 맞추기 게임 (do-while, if, break)](../src/main/java/controlflow/ControlProblem3.java)
 프로그램이 1부터 100 사이의 임의의 숫자를 하나 생성하고, 사용자가 그 숫자를 맞출 때까지 입력을 받는 게임을 만드세요.
 
 요구사항:
@@ -237,7 +237,7 @@ if 문을 사용하여 사용자의 입력이 정답보다 큰지, 작은지 힌
 
 ---
 
-## 🏋️‍♂️ 문제 4: 짝수 단만 출력하기 (중첩 for, continue)
+### 🏋️‍♂️ [문제 4: 짝수 단만 출력하기 (중첩 for, continue)](../src/main/java/controlflow/ControlProblem4.java)
 구구단 2단부터 9단까지 출력하되, 홀수 단(3단, 5단, 7단, 9단)은 건너뛰고 짝수 단만 출력하는 프로그램을 작성하세요.
 
 요구사항:

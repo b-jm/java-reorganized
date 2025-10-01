@@ -13,6 +13,7 @@ public class Exception {
             System.out.println("배열 범위를 벗어났습니다: " + e.getMessage());
         }
 
+/*
         // finally
         Scanner sc = null;
         try {
@@ -27,8 +28,10 @@ public class Exception {
             }
             System.out.println("Scanner가 닫혔습니다.");
         }
+*/
 
         // throw
+        int age = 0;
         if (age < 0) {
             throw new IllegalArgumentException("나이는 음수일 수 없습니다.");
         }

@@ -2,7 +2,7 @@
 
 ---
 
-### [예제 코드](../src/main/java/exception/exception.java)
+### [예제 코드](../src/main/java/exception/Exception.java)
 - 예외(Exception)란?
 - try / catch / finally 키워드
 - throws & throw 키워드
@@ -123,7 +123,7 @@ getMessage(), printStackTrace() 같은 메소드로 어디서 예외가 났는�
 
 ---
 
-### 🏋️‍♂️ 문제 1: 0으로 나누기 (기본 try-catch)
+### [🏋️‍♂️ 문제 1: 0으로 나누기 (기본 try-catch)](../src/main/java/exception/ExceptionProblem1.java)
 학습 목표: try-catch, ArithmeticException
 
 두 정수를 입력받아 나눗셈을 수행하는 프로그램을 작성하세요. 만약 사용자가 0으로 나누려고 시도하면, 예외를 처리하여 프로그램이 강제 종료되지 않도록 만드세요.
@@ -153,7 +153,7 @@ catch 블록을 사용하여 ArithmeticException (0으로 나눌 때 발생하�
 
 ---
 
-### 🏋️‍♂️ 문제 2: 자원 정리 보장하기 (try-catch-finally)
+### [🏋️‍♂️ 문제 2: 자원 정리 보장하기 (try-catch-finally)](../src/main/java/exception/ExceptionProblem2.java)
 학습 목표: try-catch-finally
 
 파일이나 네트워크 연결 같은 외부 자원을 사용하는 상황을 시뮬레이션하는 코드를 작성하세요. 작업 중 예외 발생 여부와 상관없이, 사용한 자원은 반드시 해제(close)되어야 합니다.
@@ -178,7 +178,7 @@ finally 블록을 사용하여 "자원을 닫습니다."라는 메시지가 항�
 
 ---
 
-### 🏋️‍♂️ 문제 3: 나이 검사기 (throws)
+### [🏋️‍♂️ 문제 3: 나이 검사기 (throws)](../src/main/java/exception/ExceptionProblem3.java)
 학습 목표: throws, Checked Exception 처리
 
 나이를 검사하는 메서드를 만들고, 이 메서드에서 특정 조건(미성년자)일 때 예외를 발생시키도록 하세요. 예외 처리는 이 메서드를 호출하는 쪽에서 책임지도록 만듭니다.
@@ -203,7 +203,7 @@ main 메서드에서 checkAge 메서드를 호출하되, try-catch 블록으로 
 
 ---
 
-### 🏋️‍♂️ 문제 4: 은행 계좌 출금 (사용자 정의 예외)
+### [🏋️‍♂️ 문제 4: 은행 계좌 출금 (사용자 정의 예외)](../src/main/java/exception/ExceptionProblem4.java)
 학습 목표: 사용자 정의 예외 클래스 만들기 및 사용
 
 잔액보다 많은 금액을 출금하려고 할 때 발생하는, InsufficientBalanceException이라는 이름의 사용자 정의 예외를 만들어 사용해 보세요.

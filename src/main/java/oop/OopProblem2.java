@@ -3,6 +3,7 @@ package oop;
 import java.util.Scanner;
 
 public class OopProblem2 {
+    // 문제 2: 사각형 넓이 계산기 (반환값)
     // 가로, 세로 길이를 받아 넓이를 계산하고 double 타입으로 반환하는 메서드
     public static double calculateRectangleArea(double width, double height) {
         double area = width * height;
